@@ -8,7 +8,7 @@ print(response.text)
 
 
 //Things we can do
-
+https://github.com/google-gemini/cookbook/blob/main/Awesome_gemini.md -- Cool Projects
 https://github.com/google-gemini/cookbook
 
 1)Direct all documents to Gen Ai and ask questions about it. 
