@@ -1,1 +1,7 @@
-test
+import google.generativeai as genai
+i3mport os
+genai.configure (api_key= "<keyy-api>")
+model = genai.GenerativeModel('gemini-1.0-pro-latest')
+prompt = input("Enter your prompt: ")
+response = model.generate_content(prompt)
+print(response.text)
