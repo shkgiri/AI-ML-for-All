@@ -9,6 +9,8 @@ print(response.text)
 
 //Things we can do
 
+https://github.com/google-gemini/cookbook
+
 1)Direct all documents to Gen Ai and ask questions about it. 
 Vector DB with Chroma DB
 https://github.com/google-gemini/cookbook/blob/main/examples/chromadb/Vectordb_with_chroma.ipynb
