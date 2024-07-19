@@ -1,0 +1,19 @@
+import google.generativeai as genai
+i3mport os
+genai.configure (api_key= "<keyy-api>")
+model = genai.GenerativeModel('gemini-1.0-pro-latest')
+prompt = input("Enter your prompt: ")
+response = model.generate_content(prompt)
+print(response.text)
+
+
+//Things we can do
+
+1)Direct all documents to Gen Ai and ask questions about it. 
+Vector DB with Chroma DB
+https://github.com/google-gemini/cookbook/blob/main/examples/chromadb/Vectordb_with_chroma.ipynb
+
+2) Run Python/Any code execution with prompt
+
+https://github.com/google-gemini/cookbook/blob/main/quickstarts/Code_Execution.ipynb
+
