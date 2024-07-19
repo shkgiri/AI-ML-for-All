@@ -13,7 +13,11 @@ print(response.text)
 Vector DB with Chroma DB
 https://github.com/google-gemini/cookbook/blob/main/examples/chromadb/Vectordb_with_chroma.ipynb
 
+Files: Use the Gemini API to upload files (text, code, images, audio, video) and write prompts using them.
+
 2) Run Python/Any code execution with prompt
 
 https://github.com/google-gemini/cookbook/blob/main/quickstarts/Code_Execution.ipynb
+
+3)
 
